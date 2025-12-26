@@ -5,17 +5,17 @@
   |============================
 */
 /* Common styles */
-@import url('./Common styles/reset.css');
-@import url('./Common styles/base.css');
-@import url('./Common styles/container.css');
-@import url('./Common styles/animations.css');
+@import url('./Common-styles/reset.css');
+@import url('./Common-styles/base.css');
+@import url('./Common-styles/container.css');
+@import url('./Common-styles/animations.css');
 
 /* Sections styles */
-@import url('./Section styles/Header-section.css');
-@import url('./Section styles/Hero-section.css');
-@import url('./Section styles/About-us-section.css');
-@import url('./Section styles/Benefits-section.css');
-@import url('./Section styles/Gallery-section.css');
-@import url('./Section styles/Testimonials-section.css');
-@import url('./Section styles/Contacts-section.css');
-@import url('./Section styles/Footer-section.css');
+@import url('./Section-styles/Header-section.css');
+@import url('./Section-styles/Hero-section.css');
+@import url('./Section-styles/About-us-section.css');
+@import url('./Section-styles/Benefits-section.css');
+@import url('./Section-styles/Gallery-section.css');
+@import url('./Section-styles/Testimonials-section.css');
+@import url('./Section-styles/Contacts-section.css');
+@import url('./Section-styles/Footer-section.css');
