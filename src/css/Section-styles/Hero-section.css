@@ -92,11 +92,14 @@
 .hero-button:focus {
   background-color: #ffffff;
 }
-
-@media screen and (min-width: 768px) {
-  .hero {
-    padding: 160px 0;
-  }
+.hero-button:active {
+  box-shadow: inset 0 0 8px 0 rgba(0, 0, 0, 0.32);
+  background: #ccc16e;
+}
+.inactive-btn {
+  background: #ccc16e;
+opacity: 0.3;
+}
 
   .hero-content {
     max-width: 513px;
