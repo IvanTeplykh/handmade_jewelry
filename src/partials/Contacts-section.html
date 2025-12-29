@@ -1,5 +1,90 @@
 <section class="contacts">
   <div class="container">
-    <!--Contacts-section-->
+    <div class="contacts-text-wrapper">
+      <h3 class="contacts-sub-title">Connect</h3>
+      <h2 class="contacts-title">Order your unique jewelry</h2>
+      <p class="contacts-description">
+        We'd love to hear more details from you!
+      </p>
+    </div>
+
+    <div class="contacts-content-wrapper">
+      <address class="contacts-address">
+        <ul class="contacts-address-list">
+          <li class="contacts-address-item">
+            <svg class="address-icon" width="32" height="32">
+              <use href="./img/icons.svg#icon-email"></use>
+            </svg>
+            <h4 class="address-title">Email</h4>
+            <a href="mailto:info@handmadejewelry.com" class="address-link"
+              >info@handmadejewelry.com</a
+            >
+          </li>
+          <li class="contacts-address-item">
+            <svg class="address-icon" width="32" height="32">
+              <use href="./img/icons.svg#icon-phone"></use>
+            </svg>
+            <h4 class="address-title">Phone</h4>
+            <a href="tel:+15550000000" class="address-link"
+              >+1 (555) 000-0000</a
+            >
+          </li>
+          <li class="contacts-address-item">
+            <svg class="address-icon" width="32" height="32">
+              <use href="./img/icons.svg#icon-map"></use>
+            </svg>
+            <h4 class="address-title">Office</h4>
+            <a
+              href="https://maps.app.goo.gl/tgWeE9zijhGgR3hJ6"
+              class="address-link"
+              rel="noopener noreferer"
+              target="_blank"
+              >76-8 Oakington Manor Dr, London, UK</a
+            >
+          </li>
+        </ul>
+      </address>
+      <form class="contacts-form">
+        <div class="contacts-form-field">
+          <label class="contacts-form-label" for="username">Name*</label>
+          <input
+            class="contacts-form-input"
+            type="text"
+            name="username"
+            id="username"
+            required
+            pattern="^[a-zA-Z\s\.]{5,28}$"
+            placeholder="Tony"
+          />
+          <span class="text-error"> Error text </span>
+        </div>
+        <div class="contacts-form-field">
+          <label class="contacts-form-label" for="userphone">Phone*</label>
+          <input
+            class="contacts-form-input"
+            type="tel"
+            name="userphone"
+            pattern="^\+[0-9\s]{14}$"
+            id="userphone"
+            required
+            placeholder="+1 234 123 23"
+          />
+          <span class="text-error"> Error text </span>
+        </div>
+        <div class="contacts-form-field comment-field">
+          <label class="contacts-form-label" for="usercomment"
+            >Describe what you want</label
+          >
+          <textarea
+            class="contacts-form-comment"
+            name="usercomment"
+            id="usercomment"
+            maxlength="500"
+            placeholder="Type your message..."
+          ></textarea>
+        </div>
+        <button class="contacts-form-button" type="submit">Submit</button>
+      </form>
+    </div>
   </div>
 </section>
