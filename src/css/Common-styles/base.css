@@ -17,7 +17,7 @@
   -webkit-text-size-adjust: 100%;
 }
 
-body {
+/*body {
   display: flex;
   flex-direction: column;
   min-width: 100vw;
@@ -31,3 +31,4 @@ main {
 main:has(.back-link) {
   text-align: center;
 }
+*/

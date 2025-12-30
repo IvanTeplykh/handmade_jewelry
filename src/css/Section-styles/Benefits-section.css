@@ -26,10 +26,7 @@
 .benefits-text-card {
   text-align: center;
 }
-.container {
-  min-width: 320px;
-  max-width: 375px;
-  margin: 0 auto;
+.benefits .container {
   padding: 64px 20px;
   display: flex;
   flex-direction: column;
