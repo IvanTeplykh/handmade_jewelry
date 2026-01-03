@@ -175,6 +175,7 @@
     display: flex;
     flex-direction: row-reverse;
     gap: 32px;
+    justify-content: start;
   }
   .contacts-form {
     width: 640px;
