@@ -129,7 +129,7 @@
 
 /* Styles for Tablet devices */
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .header .logo {
     padding: 18px 0;
   }
@@ -195,7 +195,7 @@
 
 /* Styles for Desktop devices */
 
-@media only screen and (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
   .header-nav {
     justify-content: flex-start;
   }
