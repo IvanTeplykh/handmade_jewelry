@@ -129,13 +129,17 @@
   }
 
   .testimonials__list {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(16, 1fr);
 
     gap: 24px;
   }
 
+  .testimonials__list > * {
+    grid-column: span 5;
+  }
+
   .testimonials__item--text {
-    grid-column: span 1;
+    grid-column: span 6;
   }
   .review-card__text {
     font-size: 18px;
@@ -144,6 +148,8 @@
 
   .review-card {
     padding: 32px 20px;
+    height: 100%;
+    box-sizing: border-box;
   }
   .testimonials__image {
     height: 260px;
@@ -152,6 +158,7 @@
     object-fit: cover;
 
     object-position: top center;
+    display: block;
   }
 }
 
@@ -178,6 +185,13 @@
     grid-template-columns: repeat(4, 1fr);
 
     gap: 32px;
+  }
+
+  .testimonials__item--text {
+    grid-column: span 2;
+  }
+  .testimonials__list > * {
+    grid-column: span 1;
   }
 
   .testimonials__item--text {
