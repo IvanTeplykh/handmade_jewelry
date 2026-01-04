@@ -1,11 +1,10 @@
+.contacts {
+  padding: 64px 0;
+}
+
 .contacts .container {
   gap: 0px;
   color: #000;
-}
-
-.contacts-text-wrapper {
-  width: 100%;
-  margin-bottom: 48px;
 }
 
 .contacts-sub-title {
@@ -24,10 +23,17 @@
 
 .contacts-description {
   font-size: 18px;
+  margin-bottom: 48px;
 }
 
 .contacts-address {
   margin-bottom: 32px;
+}
+
+.contacts-address-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .address-title {
@@ -61,10 +67,6 @@
 
 .address-link:active {
   color: #8668c7;
-}
-
-.contacts-address-item:not(:last-child) {
-  margin-bottom: 24px;
 }
 
 .comment-field {
@@ -155,7 +157,7 @@
 
 @media only screen and (min-width: 767.98px) {
   .contacts-address-list {
-    display: flex;
+    flex-direction: row;
     gap: 25px;
   }
   .contacts-address-item {
