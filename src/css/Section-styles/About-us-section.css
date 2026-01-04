@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: start;
   gap: 32px;
 }
 
@@ -69,18 +70,12 @@
     padding-bottom: 0;
   }
 
-  .about-container .about-image {
-    max-width: 640px;
-    height: 456px;
-  }
-
   .about-content .about-list {
     padding-bottom: 27.5px;
   }
 
   .about .about-container {
     flex-direction: row;
-    gap: 32px;
   }
 
   .about-content {
@@ -132,36 +127,22 @@
 }
 
 .item-nature::before {
-  -webkit-mask-image: url('../img/icon-leaf.svg');
-  mask-image: url('../img/icon-leaf.svg');
+  -webkit-mask-image: url('/img/icon-leaf.svg');
+  mask-image: url('/img/icon-leaf.svg');
 }
 
 .item-love::before {
-  -webkit-mask-image: url('../img/icon-donate-heart.svg');
-  mask-image: url('../img/icon-donate-heart.svg');
+  -webkit-mask-image: url('/img/icon-donate-heart.svg');
+  mask-image: url('/img/icon-donate-heart.svg');
 }
 
 .item-story::before {
-  -webkit-mask-image: url('../img/icon-book.svg');
-  mask-image: url('../img/icon-book.svg');
+  -webkit-mask-image: url('/img/icon-book.svg');
+  mask-image: url('/img/icon-book.svg');
 }
-.about .container {
-  min-width: 320px;
-  max-width: 375px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
 .about {
   padding-top: 56px;
   padding-bottom: 56px;
-}
-
-.about-wrapper {
-  flex-direction: column;
-  align-items: center;
-  display: flex;
-  gap: 32px;
 }
 
 .about-image {
@@ -230,12 +211,6 @@
 
   .about-content .about-list {
     padding-bottom: 27.5px;
-  }
-
-  .about-wrapper {
-    display: flex;
-    flex-direction: row;
-    gap: 32px;
   }
 
   .about-content {
