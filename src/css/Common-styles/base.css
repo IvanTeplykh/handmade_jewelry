@@ -7,8 +7,8 @@
 
   /*font-family: "Sora", sans-serif;*/
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+  color: #000;
+  background-color: #fff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -17,7 +17,11 @@
   -webkit-text-size-adjust: 100%;
 }
 
-body {
+html {
+  scroll-behavior: smooth;
+}
+
+/*body {
   display: flex;
   flex-direction: column;
   min-width: 100vw;
@@ -31,3 +35,4 @@ main {
 main:has(.back-link) {
   text-align: center;
 }
+*/
