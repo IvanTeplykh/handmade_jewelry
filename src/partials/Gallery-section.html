@@ -1,25 +1,46 @@
 <section class="gallery" id="gallery">
   <div class="container">
-    <section class="sectoin-title">
       <h2 class="gallery-title">Jewelry Showcase</h2>
-      <h3 class="gallery-sub-title">
+      <p class="gallery-sub-title">
         Discover the beauty of our handcrafted jewelry in style.
-      </h3>
-    </section>
+      </p>
 
     <ul class="gallery-images ul-gallery">
-      <li>
-        <img class="gallery-img-1" src="/img/gallery-img-1.png" alt="circlet">
-      </li>
-      <li>
-        <img class="gallery-img-2" src="/img/gallery-img-2.png" alt="pendant">
-      </li>
-      <li>
-        <img class="gallery-img-3" src="/img/gallery-img-3.png" alt="necklace">
-      </li>
-      <li>
-        <img class="gallery-img-4" src="/img/gallery-img-4.png" alt="earrings">
-      </li>
-    </ul>
+  <li>
+    <picture>
+      <source srcset="/img/gallery-img-1-desktop.png" media="(min-width:1025px)">
+      <source srcset="/img/gallery-img-1-tablet.png" media="(min-width:768px)">
+      <source srcset="/img/gallery-img-1-mobile.png" media="(max-width:767px)">
+      <img class="gallery-img-1" src="/img/gallery-img-1-desktop.png" alt="circlet">
+    </picture>
+  </li>
+
+  <li>
+    <picture>
+      <source srcset="/img/gallery-img-2-desktop.png" media="(min-width:1025px)">
+      <source srcset="/img/gallery-img-2-tablet.png" media="(min-width:768px)">
+      <source srcset="/img/gallery-img-3-mobile.png" media="(max-width:767px)">
+      <img class="gallery-img-2" src="/img/gallery-img-2-desktop.png" alt="pendant">
+    </picture>
+  </li>
+
+  <li>
+    <picture>
+      <source srcset="/img/gallery-img-3-desktop.png" media="(min-width:1025px)">
+      <source srcset="/img/gallery-img-3-tablet.png" media="(min-width:768px)">
+      <source srcset="/img/gallery-img-2-mobile.png" media="(max-width:767px)">
+      <img class="gallery-img-3" src="/img/gallery-img-3-desktop.png" alt="necklace">
+    </picture>
+  </li>
+
+  <li>
+    <picture>
+      <source srcset="/img/gallery-img-4-desktop.png" media="(min-width:1025px)">
+      <source srcset="/img/gallery-img-4-tablet.png" media="(min-width:768px)">
+      <source srcset="/img/gallery-img-4-mobile.png" media="(max-width:767px)">
+      <img class="gallery-img-4" src="/img/gallery-img-4-desktop.png" alt="earrings">
+    </picture>
+  </li>
+</ul>
   </div>
 </section>
