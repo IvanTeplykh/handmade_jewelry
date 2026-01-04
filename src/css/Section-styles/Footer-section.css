@@ -25,6 +25,9 @@
 .footer-social-a:focus .footer-social-icon {
   fill: #ccc16e;
 }
+.footer-social-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .footer-social-a {
   display: flex;
   justify-content: center;
@@ -43,6 +46,9 @@
 }
 .footer-link {
   font-size: 18px;
+}
+.footer-link-a {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-link-a:hover,
 .footer-link-a:focus {
