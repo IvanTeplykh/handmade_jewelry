@@ -87,6 +87,11 @@
     display: inline-block;
     padding: 6px 67.5px;
   }
+
+  .hero-button:hover {
+    background-color: #ffffff;
+    border: 1px solid #ccc16e;
+  }
 }
 
 @media screen and (min-width: 768px) and (min-resolution: 2dppx),
@@ -120,11 +125,6 @@
 
   .hero-button {
     padding: 6px 55px;
-  }
-
-  .hero-button:hover {
-    background-color: #ffffff;
-    border: 1px solid #ccc16e;
   }
 }
 

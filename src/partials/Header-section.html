@@ -26,8 +26,18 @@
 
       <a class="header-button" href="#contacts">Order Now</a>
 
-      <button type="button" class="burger-button" data-menu-open>
-        <svg class="burger-button-icon" width="24" height="24">
+      <button
+        type="button"
+        class="burger-button"
+        aria-label="Open menu"
+        data-menu-open
+      >
+        <svg
+          class="burger-button-icon"
+          width="24"
+          height="24"
+          aria-hidden="true"
+        >
           <use href="./img/icons.svg#icon-menu"></use>
         </svg>
       </button>
@@ -36,34 +46,48 @@
 </header>
 
 <div class="mobile-menu" data-menu>
-  <!--mobile menu-->
-  <a href="./index.html" class="logo">
-    <img src="./img/main-icon.svg" alt="Логотип" class="logo-img" />
-  </a>
+  <div class="container">
+    <!--mobile menu-->
+    <div class="mobile-menu-bar">
+      <a href="./index.html" class="logo">
+        <img src="./img/main-icon.svg" alt="Логотип" class="logo-img" />
+      </a>
 
-  <button type="button" class="close-button" data-menu-close>
-    <svg class="close-button-icon" width="24" height="24">
-      <use href="./img/icons.svg#icon-x-menu"></use>
-    </svg>
-  </button>
+      <button
+        type="button"
+        class="close-button"
+        aria-label="Close menu"
+        data-menu-close
+      >
+        <svg
+          class="close-button-icon"
+          width="24"
+          height="24"
+          aria-hidden="true"
+        >
+          <use href="./img/icons.svg#icon-x-menu"></use>
+        </svg>
+      </button>
+    </div>
 
-  <ul class="mobile-menu-list">
-    <li class="mobile-menu-item">
-      <a class="mobile-menu-link" href="#about">About us</a>
-    </li>
-    <li class="mobile-menu-item">
-      <a class="mobile-menu-link" href="#benefits">Benefits</a>
-    </li>
-    <li class="mobile-menu-item">
-      <a class="mobile-menu-link" href="#gallery">Gallery</a>
-    </li>
-    <li class="mobile-menu-item">
-      <a class="mobile-menu-link" href="#testimonials">Testimonials</a>
-    </li>
-    <li class="mobile-menu-item">
-      <a class="mobile-menu-link" href="#contacts">Contacts</a>
-    </li>
-  </ul>
+    <ul class="mobile-menu-list">
+      <li class="mobile-menu-item">
+        <a class="mobile-menu-link" href="#about">About us</a>
+      </li>
+      <li class="mobile-menu-item">
+        <a class="mobile-menu-link" href="#benefits">Benefits</a>
+      </li>
+      <li class="mobile-menu-item">
+        <a class="mobile-menu-link" href="#gallery">Gallery</a>
+      </li>
+      <li class="mobile-menu-item">
+        <a class="mobile-menu-link" href="#testimonials">Testimonials</a>
+      </li>
+      <li class="mobile-menu-item">
+        <a class="mobile-menu-link" href="#contacts">Contacts</a>
+      </li>
+    </ul>
 
-  <a class="mobile-button" href="#contacts">Order Now</a>
+    <a class="mobile-button" href="#contacts">Order Now</a>
+  </div>
 </div>
