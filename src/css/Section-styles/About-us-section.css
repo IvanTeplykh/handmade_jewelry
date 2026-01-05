@@ -71,7 +71,10 @@
   .about-content .about-list {
     padding-bottom: 27.5px;
   }
-
+   .about-container .about-image {
+     max-width: 640px;
+     height: 456px;
+   }
   .about .about-container {
     flex-direction: row;
   }
