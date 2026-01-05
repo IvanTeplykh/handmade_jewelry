@@ -1,4 +1,3 @@
-/* Styles for Mobile devices */
 .header {
   background-color: #fff;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
@@ -34,8 +33,6 @@
   display: block;
   fill: #000;
 }
-
-/* Styles for Mobile menu */
 
 .mobile-menu {
   position: fixed;
@@ -129,8 +126,6 @@
   box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.32);
 }
 
-/* Styles for Tablet devices */
-
 @media screen and (min-width: 768px) {
   .header .logo {
     padding: 18px 0;
@@ -194,8 +189,6 @@
     display: none;
   }
 }
-
-/* Styles for Desktop devices */
 
 @media screen and (min-width: 1440px) {
   .header-nav {
