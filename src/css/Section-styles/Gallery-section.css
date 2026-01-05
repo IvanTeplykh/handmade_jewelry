@@ -83,7 +83,6 @@
   object-fit: cover;
 }
 
-/* Tablet */
 @media only screen and (min-width: 768px) and (max-width: 1439px) {
   .gallery-sub-title {
     padding-bottom: 80px;
@@ -94,6 +93,7 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 @media only screen and (min-width: 768px) {
   .gallery-images {
     gap: 24px;
@@ -125,7 +125,6 @@
   }
 }
 
-/* Desktop  */
 @media only screen and (min-width: 1440px) {
   .gallery-title {
     font-size: 48px;

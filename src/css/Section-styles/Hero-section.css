@@ -1,5 +1,3 @@
-/* Styles for Mobile devices */
-
 .hero {
   padding-top: 160px;
   padding-bottom: 152px;
@@ -64,8 +62,6 @@
   }
 }
 
-/* Styles for Tablet devices */
-
 @media screen and (min-width: 768px) {
   .hero {
     padding-top: 160px;
@@ -101,8 +97,6 @@
       url('../../img/hero-tablet-2x.jpg');
   }
 }
-
-/* Styles for Desktop devices */
 
 @media screen and (min-width: 1440px) {
   .hero {

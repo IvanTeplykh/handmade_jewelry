@@ -1,12 +1,8 @@
 :root {
-  /* font-family: Inter, Avenir, Helvetica, Arial, sans-serif; */
   font-family: 'Mulish', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
-
-  /*font-family: "Sora", sans-serif;*/
-
   color: #000;
   background-color: #fff;
 
@@ -20,19 +16,3 @@
 html {
   scroll-behavior: smooth;
 }
-
-/*body {
-  display: flex;
-  flex-direction: column;
-  min-width: 100vw;
-  min-height: 100vh;
-  margin: 0;
-}
-
-main {
-  flex-grow: 1;
-}
-main:has(.back-link) {
-  text-align: center;
-}
-*/
