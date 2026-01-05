@@ -1,0 +1,130 @@
+.gallery-title {
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: -1%;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 24px;
+}
+
+.gallery
+{
+    padding: 64px 0;
+}
+.gallery-sub-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.gallery-images {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+}
+.gallery-img-1,
+.gallery-img-4 {
+    width: 335px;
+    height: 335px;
+    margin: 0 auto;
+    object-fit: cover;
+}
+.gallery-img-2 {
+    
+    width: 335px;
+    height: 335px;
+    object-fit: cover;
+}
+.gallery-img-3 {
+    
+    width: 335px;
+    height: 335px;
+    object-fit: cover;
+}
+.gallery-img-4 {
+    
+    width: 335px;
+    height: 335px;
+    object-fit: cover;
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1439px) {
+    .gallery-sub-title
+    {
+        margin-bottom: 80px;
+    }
+    .gallery-images 
+    {
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 626px;
+        gap: 24px;
+    }
+    .gallery-img-1, 
+    .gallery-img-4 {
+        height: 368px;
+        width: 340px;
+    }
+
+    .gallery-img-2,
+    .gallery-img-3 {
+        height: 216px;
+        width: 340px;
+        margin: 0 auto;
+    }
+    .gallery-img-1, 
+    .gallery-img-2
+    {
+        margin-right: 0px;
+    }
+    .gallery-img-3, 
+    .gallery-img-4
+    {
+        margin-left: 0px;
+    }
+}
+
+/* Desktop  */
+@media only screen and (min-width: 1440px) {
+    .gallery-title {
+        font-size: 48px;
+    }
+    .gallery-sub-title
+    {
+        margin-bottom: 80px;
+    }
+    .gallery-images 
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 1098px;
+        gap: 32px;
+    }
+    .gallery-img-1, 
+    .gallery-img-4 
+    {
+        height: 640px;
+        width: 640px;
+    }
+
+    .gallery-img-2,
+    .gallery-img-3 {
+        height: 426px;
+        width: 640px;
+        margin: 0 auto;
+    }
+    .gallery-img-1,
+    .gallery-img-2
+    {
+        margin-right: 0px;
+    }
+    .gallery-img-3, 
+    .gallery-img-4
+    {
+        margin-left: 0px;
+    }
+}
