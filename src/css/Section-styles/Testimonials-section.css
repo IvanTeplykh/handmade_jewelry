@@ -1,164 +1,112 @@
 .testimonials {
   padding-top: 40px;
-
   padding-bottom: 40px;
 }
 
 .container {
   padding-left: 20px;
-
   padding-right: 20px;
-
   margin: 0 auto;
 }
 
 .testimonials__title {
   font-family: inherit;
-
   font-weight: 500;
-
   font-size: 36px;
-
   line-height: 1.2;
-
   color: #111;
-
   text-align: center;
-
   margin-top: 0;
-
   margin-bottom: 14px;
 }
 
 .testimonials__description {
   font-size: 14px;
-
   line-height: 1.5;
-
   color: #111;
-
   text-align: center;
-
   margin-top: 0;
 }
 
 .testimonials__list {
-  display: grid;
-
-  grid-template-columns: 1fr;
-
+  display: flex;
+  flex-wrap: wrap;
   gap: 24px;
-
   padding: 0;
-
   margin: 0;
-
   list-style: none;
+  justify-content: center;
 }
 
 .testimonials__item {
   width: 100%;
-
-  height: auto;
-
   display: flex;
-
   flex-direction: column;
-
   box-sizing: border-box;
+  min-height: 260px;
 }
 
 .testimonials__image {
   width: 100%;
-
   height: 100%;
-
   min-height: 260px;
-
   object-fit: cover;
-
   display: block;
 }
 
 .testimonials__item--text {
   background-color: #f2f2f2;
-
   border: 1px solid rgba(0, 0, 0, 0.2);
-
   padding: 32px;
-
-  height: 100%;
-
+  height: auto;
   justify-content: flex-start;
-  min-height: 260px;
 }
 
 .review-card__rating {
   display: flex;
-
   gap: 4px;
-
   margin-bottom: 20px;
 }
 
 .review-card__icon {
   fill: #111;
-
   display: block;
 }
 
 .review-card__icon--outline {
   fill: transparent;
-
   stroke: #111;
-
   stroke-width: 2px;
 }
 
 .review-card__text {
   font-size: 18px;
-
   line-height: 1.5;
-
   font-weight: 400;
-
   color: #111;
-
-  padding-bottom: 24px;
-
   margin: 0;
+  margin-bottom: 24px;
 }
 
 .review-card__author {
   font-weight: 600;
-
   font-size: 16px;
-
   line-height: 1.5;
-
   color: #111;
-
   margin: 0;
-
   margin-top: auto;
 }
 
 @media only screen and (min-width: 768px) {
-  .testimonials__list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 24px;
-    padding: 0;
-    list-style: none;
+  .testimonials__item {
+    width: 203px;
   }
 
-  .testimonials__item {
-    min-height: 260px;
-    width: 203px;
-    display: flex;
-    flex-direction: column;
+  .testimonials__item--text {
+    width: 250px;
+    padding: 32px 24px;
   }
+
   .testimonials__list > li:nth-child(4) {
     width: 248px;
   }
@@ -166,42 +114,12 @@
   .testimonials__list > li:nth-child(6) {
     width: 204px;
   }
-
-  .testimonials__item--text {
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding: 32px 24px;
-    box-sizing: border-box;
-
-    background-color: #f2f2f2;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-  }
-
-  .testimonials__image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-  }
-
-  .review-card__text {
-    margin-bottom: auto;
-
-    font-size: 18px;
-    line-height: 1.5;
-  }
-
-  .review-card__author {
-    width: 100%;
-  }
 }
 
 @media screen and (min-width: 1440px) {
   .testimonials {
-    padding-top: 128px;
-    padding-bottom: 128px;
+    padding-top: 64px;
+    padding-bottom: 64px;
   }
 
   .testimonials__description {
@@ -215,12 +133,7 @@
 
   .testimonials__list {
     gap: 32px;
-    justify-content: center;
     max-width: 1440px;
-    margin: 0 auto;
-
-    display: flex;
-    flex-wrap: wrap;
   }
 
   .testimonials__item {
@@ -231,8 +144,6 @@
   .testimonials__item--text {
     width: 640px;
     padding: 32px;
-
-    height: auto;
     min-height: 260px;
   }
 
