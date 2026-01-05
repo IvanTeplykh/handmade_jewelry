@@ -20,7 +20,7 @@
   font-size: 18px;
   line-height: 150%;
   text-align: center;
-  margin-bottom: 40px;
+  padding-bottom: 40px;
 }
 
 .gallery-images {
@@ -41,7 +41,6 @@
 }
 
 .gallery-images {
-  margin-top: 40px;
   margin-bottom: 64px;
   display: flex;
   flex-wrap: wrap;
@@ -143,7 +142,6 @@
     font-size: 48px;
   }
   .gallery-images {
-    margin-top: 80px;
     gap: 32px;
   }
 
